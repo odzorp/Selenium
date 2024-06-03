@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ecf68a4-f783-4e4e-8cad-417a05d8a246" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +41,15 @@
     "Application.loginPage.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Exceptions.executor": "Run",
+    "TestNG.Exceptions.testDisabledInputFieldInteraction.executor": "Run",
+    "TestNG.Exceptions.testElementNotInteractableException.executor": "Run",
+    "TestNG.Exceptions.testInstructionsDisappearOnAdd.executor": "Run",
+    "TestNG.Exceptions.testInvalidElementStateException.executor": "Run",
+    "TestNG.Exceptions.testNoSuchElementException.executor": "Run",
+    "TestNG.Exceptions.testStaleElementReferenceException.executor": "Run",
+    "TestNG.Exceptions.testStaleElementReferenceExceptionIsThrown.executor": "Run",
+    "TestNG.Exceptions.testTimeoutExceptionForSecondInputField.executor": "Run",
     "TestNG.LoginAutomation.executor": "Run",
     "TestNG.LoginPage.executor": "Run",
     "TestNG.LoginTests.executor": "Run",
@@ -54,7 +57,7 @@
     "TestNG.LoginTests.negativePasswordTest.executor": "Run",
     "TestNG.LoginTests.negativeUsernameTest.executor": "Run",
     "TestNG.LoginTests.positiveLoginTest.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -75,18 +78,11 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="loginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loginPage" />
-      <module name="Alberta" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests.negativeCredentialsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Exceptions.testInstructionsDisappearOnAdd" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Alberta" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTests" />
-      <option name="METHOD_NAME" value="negativeCredentialsTest" />
+      <option name="MAIN_CLASS_NAME" value="Exceptions" />
+      <option name="METHOD_NAME" value="testInstructionsDisappearOnAdd" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -94,11 +90,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.negativePasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Exceptions.testInvalidElementStateException" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Alberta" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTests" />
-      <option name="METHOD_NAME" value="negativePasswordTest" />
+      <option name="MAIN_CLASS_NAME" value="Exceptions" />
+      <option name="METHOD_NAME" value="testInvalidElementStateException" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -106,11 +102,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.negativeUsernameTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Exceptions.testStaleElementReferenceException" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Alberta" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTests" />
-      <option name="METHOD_NAME" value="negativeUsernameTest" />
+      <option name="MAIN_CLASS_NAME" value="Exceptions" />
+      <option name="METHOD_NAME" value="testStaleElementReferenceException" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -118,11 +114,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.positiveLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Exceptions.testStaleElementReferenceExceptionIsThrown" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Alberta" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTests" />
-      <option name="METHOD_NAME" value="positiveLoginTest" />
+      <option name="MAIN_CLASS_NAME" value="Exceptions" />
+      <option name="METHOD_NAME" value="testStaleElementReferenceExceptionIsThrown" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exceptions.testTimeoutExceptionForSecondInputField" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Alberta" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Exceptions" />
+      <option name="METHOD_NAME" value="testTimeoutExceptionForSecondInputField" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -132,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTests.negativeCredentialsTest" />
-        <item itemvalue="TestNG.LoginTests.negativePasswordTest" />
-        <item itemvalue="TestNG.LoginTests.negativeUsernameTest" />
-        <item itemvalue="TestNG.LoginTests.positiveLoginTest" />
-        <item itemvalue="Application.loginPage" />
+        <item itemvalue="TestNG.Exceptions.testTimeoutExceptionForSecondInputField" />
+        <item itemvalue="TestNG.Exceptions.testStaleElementReferenceExceptionIsThrown" />
+        <item itemvalue="TestNG.Exceptions.testInstructionsDisappearOnAdd" />
+        <item itemvalue="TestNG.Exceptions.testStaleElementReferenceException" />
+        <item itemvalue="TestNG.Exceptions.testInvalidElementStateException" />
       </list>
     </recent_temporary>
   </component>
@@ -157,11 +165,22 @@
       <option name="presentableId" value="Default" />
       <updated>1716818777508</updated>
       <workItem from="1716818778636" duration="35544000" />
-      <workItem from="1717403187297" duration="6604000" />
+      <workItem from="1717403187297" duration="18655000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Exceptions.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
